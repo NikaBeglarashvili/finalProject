@@ -1,0 +1,59 @@
+@media(max-width: 320px){
+    .header{
+        width: 100%;
+    }
+
+    .mainText{
+        text-align: center;
+    }
+
+    .paragraphArea{
+        text-align: center;
+        width: 90%;
+    }
+
+    .shopping{
+        width: 50%;
+    }
+
+
+    /* .galeryCards img{
+        width: 320px;
+    } */
+
+
+    .whatisTitle{
+        text-align: center;
+    }
+
+
+    .textarea{
+        height: 180px;
+    }
+
+    .category{
+        padding: 80px;
+    }
+
+    .havequestion{
+        text-align: center;
+    }
+
+    .helpbutton{
+        width: 50%;
+    }
+
+    .info{
+        text-align: center;
+        width: 50%;
+    }
+
+    .info2{
+        text-align: center;
+        width: 50%;
+    }
+
+
+
+
+}
