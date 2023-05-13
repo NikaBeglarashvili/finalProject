@@ -1,0 +1,188 @@
+        /* artwork CSS */
+
+
+.artwordheader {
+    width: 100%;
+    height: 96px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .artworkpoto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  /* artwork mid section */
+  
+  
+  .artwork-mid-section{
+    display: flex;
+    height: 560px;
+    background-image: url(../images/artwork\ header\ photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+  }
+  
+  
+  
+  .artworkTitle{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 8%;
+  
+  }
+  
+  
+  .artworkbutton{
+    width: 19%;
+    height: 56px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #D5906E;
+  border-radius: 10px;
+  font-size: 1rem;
+  }
+  
+  
+  
+  
+  /* all category section  */
+  
+  
+  .allcategory{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 15%;
+  }
+  
+  .allcategorysearch{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .allcategory span{
+    font-size: 1.2rem;
+    color: #402101;
+  }
+  
+  
+  
+  form{
+    width: 50%;
+    display: flex;
+    
+  }
+  
+  .textinput{
+    width: 60%;
+    height: 56px;
+    
+    border-color: #402101;
+    
+  
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  
+  .textbutton{
+    width: 30%;
+    height: 56px;
+    background-color: #402101;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    transform: translateX(-3%);
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  
+  
+  
+  /* all category section */
+  
+  
+  
+  
+  .cardsTitle{
+    font-size: 2rem;
+    color: #402101;
+    font-family: 'Inter', sans-serif;
+    margin: 5% 4.5% 0;
+  
+  }
+  
+  .artworkCards{
+    display: flex;
+   
+    flex-wrap: wrap;
+  }
+  
+  figcaption{
+    margin: 10% 0;
+    color: #b53b1b;
+    font-size: 1rem;
+  }
+  
+  .card{
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10% 0 0 0;
+  
+  }
+  
+  
+  
+  
+  .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#402101;
+    font-size: 1.5rem;
+  }
+  
+  
+  .card{
+    
+      transition: all 0.4s ease-in-out 0.1ms;
+   
+  }
+  
+  
+  .card:hover{
+    transform: scale(1.3);
+    }
+  
+  
+    .artworkfooter{
+      margin-top: 10%;
+      width: 100%;
+  /* height: 240px; */
+  background: #402101;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    }
+  
+
+

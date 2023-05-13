@@ -1,0 +1,403 @@
+@media(max-width:1360px){
+    .latestsection{
+        flex-wrap: wrap;
+        width: 70%;
+        gap: 20px;
+        margin-inline: auto;
+        
+    }
+
+    .row{
+        display: none;
+    }
+
+    .contactsection{
+        gap: 10px;
+    }
+}
+
+
+
+
+@media(max-width: 1270px){
+    .artworkCards{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    .picturenone{
+        display: none;
+    }
+
+    .artworkfooter{
+        margin-top: none;
+    }
+
+
+}
+
+
+
+
+@media(max-width:1200px){
+    
+    .textarea{
+        height: 140px;
+        width: 30%;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1164px){
+    .galeryCards :nth-child(n+3){
+        display: none;
+    }
+
+
+   
+
+    .galeryCards{
+        width: 50%;
+        height: 240px;
+        gap: 20px;
+        margin-inline: auto;
+    }
+
+
+
+
+    .contactdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    .contactsection{
+        width: 70%;
+    }
+
+
+    .contactinput{
+        margin: 8%;
+    }
+
+    .message{
+        width: 170%;
+    }
+}
+
+
+
+
+
+@media(max-width:1090px){
+    .category{
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 50px;
+        margin: auto;
+    }
+
+
+    .contactsection{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 940px){
+    nav{
+        display: none;
+    }
+    .navBar img{
+        display: block;
+    }
+
+
+    .whatissection{
+        flex-direction: column;
+        
+        gap: 10px;
+        
+    }
+    .textarea{
+        width: 50%;
+        height: 150px;
+    }
+
+    .helpbutton{
+        width: 20%;
+    }
+
+
+    .contactmap{
+        
+        width: 64%;
+        height: 500px;
+    }
+
+
+    .contactsec{
+        gap: 33px;
+        width: 100%;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .contact{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 750px){
+    .cards{
+        width: 50%;
+    }
+}
+
+
+
+
+@media(max-width: 710px){
+    .cards{
+        width: 70%;
+        /* flex-direction: column; */
+        text-align: center;
+
+        
+    }
+
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        height: 330px;
+    }
+
+    .info{
+        width: 20%;
+    }
+
+    .info2{
+        width: 22%;
+    }
+
+    .footerlogo{
+        display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 0px -69px;
+}
+    }
+
+
+
+
+
+
+
+
+@media(max-width: 690px){
+    .galeryCards :nth-child(1){
+        width: 440px;
+
+    }
+
+
+    .category{
+        padding: 70px 200px;
+    }
+
+
+    .artworkfooter{
+        flex-direction: column;
+        width: 70%;
+        height: 400px;
+        
+        
+        text-align: center;
+    }
+
+    /* .contactsubmit{
+        width: 100%;
+    } */
+
+   
+}
+
+
+
+
+
+@media(max-width: 560px){
+    .textarea{
+        width: 70%;
+        height: 160px;
+    }
+
+
+
+    .footer{
+        height: 430px;
+    }
+    
+    .info2{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 490px){
+    .galeryCards :nth-child(1){
+        width: 440px;
+
+    }
+
+    .havequestion{
+        text-align: center;
+    }
+
+    .helpbutton{
+        width: 50%;
+    }
+
+
+    .artworkTitle{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .artworkbutton{
+        width: 30%;
+    }
+
+
+    .allcategory{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cardsTitle{
+        text-align: center;
+    }
+
+
+    .contactsec{
+        height: 500px;
+    }
+
+    .contactsection{
+        width: 150%;
+    }
+
+    .contactsubmit{
+        width: 100%;
+    }
+
+    
+}
+
+
+
+@media(max-width:450px){
+    .galeryCards :nth-child(1){
+        width: 380px;
+    }
+    .galeryCards :nth-child(2){
+        width: 380px;
+    }
+
+    .category{
+        padding: 25px 130px;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media(max-width:390px){
+    .galeryCards :nth-child(1){
+        width: 320px;
+    }
+    .galeryCards :nth-child(2){
+        width: 320px;
+    }
+
+    .info2{
+        width: 50%;
+    }
+
+
+    
+
+    .textform{
+        width: 70%;
+    }
+}
+
